@@ -101,6 +101,8 @@ function listMavenCompletions {
         repository:bundle-create repository:bundle-pack
         # source
         source:aggregate source:jar source:jar-no-fork
+        # version
+        versions:set versions:commit versions:revert versions:lock-snapshots versions:resolve-ranges versions:unlock-snapshots versions:update-child-modules versions:update-parent versions:update-properties versions:use-latest-releases versions:use-latest-snapshots versions:use-latest-versions versions:use-next-releases versions:use-next-snapshots versions:use-next-versions versions:use-releases
             
         # eclipse
         eclipse:clean eclipse:eclipse
